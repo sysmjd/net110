@@ -24,6 +24,9 @@ get_status_led() {
 	linksys,viper)
 		status_led="viper:white:health"
 		;;
+	surfilter,net110)
+		status_led="net110:orange:sata"
+		;;
 	seagate,dockstar|\
 	seagate,goflexhome|\
 	seagate,goflexnet)

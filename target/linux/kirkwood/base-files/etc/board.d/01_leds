@@ -24,6 +24,10 @@ case "$board" in
 	ucidef_set_led_default "health" "health" "viper:white:health" "1"
 	ucidef_set_led_default "pulse" "pulse" "viper:white:pulse" "1"
 	;;
+"surfilter,net110")
+	ucidef_set_led_default "health" "health" "net110:green:health" "1"
+	ucidef_set_led_default "sata" "sata" "net110:orange:fault" "1"
+	;;
 "raidsonic,ib-nas62x0")
 	ucidef_set_led_default "health" "health" "ib62x0:green:os" "1"
 	ucidef_set_led_default "fault" "fault" "ib62x0:red:os" "1"
